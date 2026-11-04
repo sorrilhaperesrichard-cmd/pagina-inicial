@@ -1,0 +1,13 @@
+name = "pagina-inicial-rsp"
+pages_build_output_dir = "public"
+compatibility_date = "2025-06-01"
+
+[vars]
+GITHUB_CLIENT_ID = "Ov23liGhNJqfZ4fXRDHZ"
+# Fase 1: só estes logins do GitHub podem entrar (separados por vírgula).
+ALLOWED_GITHUB_LOGINS = "sorrilhaperesrichard-cmd"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "pagina-inicial-db"
+database_id = "e0ffba05-4fa0-4a3c-b4a3-a2a6506416f1"
